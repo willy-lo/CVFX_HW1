@@ -17,7 +17,22 @@
  
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/summer2winter99.png)
  
-2. 選取test的圖片
+2.test our pictures
+
+ 選取test的圖片
+
+ ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/test_summer.jpg)
+ 
+ Test完的結果
+ 
+ 夏天變冬天:
+ 
+ ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/test_before_after.png)
+ 
+                              After                    Before
+ 
+ 
+ 
 
 
 
