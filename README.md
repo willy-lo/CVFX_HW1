@@ -28,7 +28,8 @@
  夏天變冬天:
  
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/test_before_after.png)
-                   After                           Before
+                
+                After                           Before
                           
  選取test的圖片      
  
@@ -39,7 +40,8 @@
  冬天變夏天:
  
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/test_after_before.png)
-                         Before                                               After
+                        
+                        Before                                               After
                          
 3.other method:
 我們所使用的比較方式為利用Photoshop來將夏天的照片作成冬天的照片。 
