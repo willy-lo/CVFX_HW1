@@ -29,7 +29,7 @@ CycleGAN的原理可以概述為：將一類圖片轉換成另一類圖片。也
 
 
 
-CycleGAN與DCGAN的對比
+CycleGAN與DCGAN的對比:
 
 
 
@@ -45,7 +45,7 @@ CycleGAN與DCGAN的對比
 
 
 
-CycleGAN與pix2pix模型的對比
+CycleGAN與pix2pix模型的對比:
 
 
 
@@ -56,7 +56,6 @@ pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型�
 ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/pic2.png)
 
 比如，我們希望訓練一個將白天的照片轉換為夜晚的模型。如果使用pix2pix模型，那麼我們必須在蒐集大量地點在白天和夜晚的兩張對應圖片，而使用CycleGAN只需同時蒐集白天的圖片和夜晚的圖片，不必滿足對應關係。因此CycleGAN的用途要比pix2pix更廣泛，利用CycleGAN就可以做出更多有趣的應用。
-
 
 
 
