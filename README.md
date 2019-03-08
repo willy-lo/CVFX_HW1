@@ -1,5 +1,13 @@
 # CVFX_HW1
-1.Training progress:  
+1.CycleGAN的原理:
+
+CycleGAN的原理可以概述為：將一類圖片轉換成另一類圖片。也就是說，現在有兩個樣本空間，X和Y，我們希望把X空間中的樣本轉換成Y空間中的樣本。
+
+因此，實際的目標就是學習從X到Y的映射。我們設這個映射為F。它就對應著GAN中的生成器，F可以將X中的圖片x轉換為Y中的圖片F(x)。對於生成的圖片，我們還需要GAN中的判別器來判別它是否為真實圖片，由此構成對抗生成網絡。設這個判別器為DY。這樣的話，根據這裡的生成器和判別器，我們就可以構造一個GAN損失，表達式為：
+
+
+
+2.Training progress:  
  
   Monet2photo	
   
@@ -17,7 +25,7 @@
  
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/summer2winter99.png)
  
-2.test our pictures
+3.test our pictures
 
  選取test的圖片
 
@@ -43,7 +51,7 @@
                         
                Before                            After
                          
-3.other method:
+4.other method:
 
 我們所使用的比較方式為利用Photoshop來將夏天的照片作成冬天的照片。 
 
@@ -55,7 +63,7 @@
 
 ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/photoshop.jpg)
 
-4.conclusion:
+5.conclusion:
 
 我們所採用的dataset是summer2winter,我們將train的epoch調整為150,decay epoch的參數調整為75。
 
