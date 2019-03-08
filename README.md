@@ -28,6 +28,19 @@ CycleGAN與DCGAN的對比
 
 先來看下DCGAN，它的整體框架和最原始的那篇GAN是一模一樣的，在這個框架下，輸入是一個噪聲z，輸出是一張圖片（如下圖），因此，我們實際只能隨機生成圖片，沒有辦法控制輸出圖片的樣子，更不用說像CycleGAN一樣做圖片變換了。
 
+![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/pic1.png)
+
+
+
+CycleGAN與pix2pix模型的對比
+
+
+
+pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型必須要求成對數據（paired data），而CycleGAN利用非成對數據也能進行訓練(unpaired data)。
+
+![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/pic2.png)
+
+比如，我們希望訓練一個將白天的照片轉換為夜晚的模型。如果使用pix2pix模型，那麼我們必須在蒐集大量地點在白天和夜晚的兩張對應圖片，而使用CycleGAN只需同時蒐集白天的圖片和夜晚的圖片，不必滿足對應關係。因此CycleGAN的用途要比pix2pix更廣泛，利用CycleGAN就可以做出更多有趣的應用。
 
 
 
