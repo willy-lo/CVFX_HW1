@@ -61,6 +61,10 @@ pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型�
 
 
 
+
+
+
+
 2.Training progress:  
  
   Monet2photo	
@@ -79,6 +83,10 @@ pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型�
  
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/summer2winter99.png)
  
+
+
+
+
 3.test our pictures
 
  選取test的圖片
@@ -104,7 +112,12 @@ pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型�
  ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/test_after_before.png)
                         
                Before                            After
-                         
+ 
+ 
+ 
+ 
+ 
+ 
 4.other method:
 
 我們所使用的比較方式為利用Photoshop來將夏天的照片作成冬天的照片。 
@@ -116,6 +129,12 @@ pix2pix也可以做圖像變換，它和CycleGAN的區別在於，pix2pix模型�
 接下來仍然可以使照片更加完美，使用區塊將地板想要變成積雪的地方圈起來，填入白色之後添加適合的材質使得表面變的一點點粗糙讓他看似雪地。接著將圖片以白色的模糊效果使其增加霧氣感，最後再想要增加飄雪的地方使用筆刷刷出鏡頭前飄雪的感覺。
 
 ![image](https://github.com/willy-lo/CVFX_HW1/blob/master/cv_hw1/photoshop.jpg)
+
+
+
+
+
+
 
 5.conclusion:
 
